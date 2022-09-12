@@ -23,3 +23,8 @@ If you need to stop and remove all containers, networks, and all images used by 
 ```bash
 docker-compose down --rmi all
 ```
+
+## Assessment
+
+1. Complete `demo/Dockerfile` to run application in docker
+2. Add Kubernetes manifests (or Helm Chart) to deploy this complete application stack i.e. Database and Application
